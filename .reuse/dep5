@@ -1,7 +1,7 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
-Upstream-Name: Taichung Hospital consultation room called patient number monitoring
-Upstream-Contact: Issues · 林博仁 Buo-ren, Lin / Taichung Hospital consultation room called patient number monitoring · GitLab <https://gitlab.com/brlin/taichung-hospital-consultation-room-called-patient-number-monitoring/-/issues>
-Source: https://gitlab.com/brlin/taichung-hospital-consultation-room-called-patient-number-monitoring
+Upstream-Name: Taiwan Bureau of Consular Affairs passport application called waiting number monitoring
+Upstream-Contact: Issues · 林博仁 Buo-ren, Lin / Taiwan Bureau of Consular Affairs passport application called waiting number monitoring · GitLab <https://gitlab.com/brlin/taiwan-bureau-of-consular-affairs-passport-application-called-waiting-number-monitoring/-/issues>
+Source: https://gitlab.com/brlin/taiwan-bureau-of-consular-affairs-passport-application-called-waiting-number-monitoring
 
 Files:
     *README.md
