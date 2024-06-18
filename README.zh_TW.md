@@ -13,9 +13,9 @@
 
 在使用本應用軟體前請注意：
 
-* 本解決方案僅獲取叫號機的叫號資訊，病患仍須遵守醫院診間規定完成報到作業以免失去求診資格
-* 請合理設定本工具的輪詢行為，避免讓醫院方資訊系統過載
-* 這**不是**臺中醫院的官方產品，產品作者**無法**且**不會**對任何因本產品的使用所衍生的任何損失進行賠償
+* 本解決方案僅獲取叫號資訊，申辦人仍須遵守外交部領事事務局規定以免失去服務資格
+* 請合理設定本工具的輪詢行為，避免讓外交部領事事務局的資訊系統過載
+* 這**不是**外交部領事事務局的官方產品，產品作者**無法**且**不會**對任何因本產品的使用所衍生的任何損失進行賠償
 
 ## 前備條件
 
@@ -57,10 +57,10 @@
 
 ### CHECK_URL
 
-要監控的臺中醫院個別診間看診進度頁面，瀏覽[臺中醫院網路掛號系統的看診進度功能](https://www03.taic.mohw.gov.tw/RegMobileWeb/Home/RegRoomList?Flag=Y)，選好科別跟醫師後可以看到「目前看到」欄位的那個頁面的網址
+要監控的[外交部領事事務局全球資訊網-申辦護照現場等待人數](https://www.boca.gov.tw/sp-wain-board-1.html)頁面網址
 
 預設值：（無）  
-範例值： `https://example.taic.mohw.gov.tw/RegMobileWeb/Home/RegRoom?cateId=1234&drId=5678`
+範例值： `https://www.boca.gov.tw/sp-wain-board-1.html`
 
 ### CHECK_TIMEOUT
 
@@ -72,8 +72,8 @@
 
 ## 參考資料
 
-* [看診進度](https://www03.taic.mohw.gov.tw/RegMobileWeb/Home/RegRoomList?Flag=Y)  
-  臺中醫院的看診進度查詢頁面
+* [外交部領事事務局全球資訊網-申辦護照現場等待人數](https://www.boca.gov.tw/sp-wain-board-1.html)  
+  外交部領事事務局的護照申辦業務叫號資訊查詢頁面
 * curl(1) 的 manpage 使用手冊頁面  
   說明 curl HTTP 客戶端工具的使用方式
 * xgettext(1) 的 manpage 使用手冊頁面  

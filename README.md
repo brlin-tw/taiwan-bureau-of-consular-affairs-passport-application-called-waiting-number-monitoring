@@ -13,9 +13,9 @@ English | [台灣中文](README.zh_TW.md)
 
 Before using this application please note that:
 
-* This solution only fetches the called patient number information, the patient should adhere to the hospital consultation room's check-in instructions to avoid losing the qualification of the specialist consultation.
-* Please properly set this utility's polling behavior settings to avoid overloading the hospital's IT system.
-* This is NOT an official Taichung Hospital product, the author CAN NOT and WILL NOT provide compensation of any damages relating to the usage of this application.
+* This solution only fetches the called number information, applicants should adhere to the agency's regulations to avoid losing the qualification of being serviced.
+* Please properly set this utility's polling behavior settings to avoid overloading the agency's IT system.
+* This is NOT an official Bureau of Consular Affairs product, the author CAN NOT and WILL NOT provide compensation of any damages relating to the usage of this application.
 
 ## Prerequisites
 
@@ -39,7 +39,7 @@ This application requires the following software to be available in order to wor
 
 ## Environment variables to change the monitoring utility's behavior
 
-The following environment variables can adjst the monitoring program's behavior according to the user's need:
+The following environment variables can adjust the monitoring program's behavior according to the user's need:
 
 ### CHECK_INTERVAL_BASE
 
@@ -57,10 +57,10 @@ Default value: `10`
 
 ### CHECK_URL
 
-The Taichung Hospital consultation room patient calling status page to monitor, to acquire the URL browse [the consultation room patient calling feature page](https://www03.taic.mohw.gov.tw/RegMobileWeb/Home/RegRoomList?Flag=Y), select the proper department and doctor's name, and copy the URL of the page that contains the "目前看到" column name.
+[The Bureau of Consular Affairs passport application called waiting number page](https://www.boca.gov.tw/sp-wain-board-1.html) to monitor.
 
 Default value: (None)  
-Example value: `https://example.taic.mohw.gov.tw/RegMobileWeb/Home/RegRoom?cateId=1234&drId=5678`
+Example value: `https://www.boca.gov.tw/sp-wain-board-1.html`
 
 ### CHECK_TIMEOUT
 
@@ -72,8 +72,8 @@ Defualt value: `30`
 
 ## References
 
-* [看診進度](https://www03.taic.mohw.gov.tw/RegMobileWeb/Home/RegRoomList?Flag=Y)  
-  The consultation room patient calling status page of the Taichung Hospital.
+* [外交部領事事務局全球資訊網-申辦護照現場等待人數](https://www.boca.gov.tw/sp-wain-board-1.html)  
+  The passport application called waiting number page of the Taiwan Bureau of Consular Affairs.
 * curl(1) manpage  
   Explains how to use the curl HTTP client utility
 * xgettext(1) manpage  
